@@ -4,7 +4,8 @@ using namespace std;
 int main() {
 	int a,b,c,d;
 	cin>>a>>b>>c>>d;
-
+	// precomputing primes using sieves 
+	// this question has lose constraints and primes can be found in O(root n)
 	int prime[40001];
 	for(int i=0;i<=4000;i++) prime[i]=1;
 	prime[0]=prime[1]=0;
