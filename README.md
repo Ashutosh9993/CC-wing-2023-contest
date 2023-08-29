@@ -2,4 +2,4 @@
 
 This repo contains the solutions to all the questions
 
-Let the coding games begin! 🎮
+Keep coding 🎮
