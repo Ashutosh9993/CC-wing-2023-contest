@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 #define ll __int128
+#define endl "\n"
 using namespace std;
 int a, b;
 int largestSegment(vector<ll> &divPermutation, int a, int b)
@@ -63,5 +64,5 @@ int main()
     {
         divPermutation[i] = divisors[permutation[i] - 1];
     }
-    cout << largestSegment(divPermutation, a, b) << '\n';
+    cout << largestSegment(divPermutation, a, b) << 'endl';
 }
